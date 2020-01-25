@@ -16,3 +16,13 @@ kubectl version --client
 https://storage.googleapis.com/minikube/releases/latest/minikube-installer.exe
 
 https://minikube.sigs.k8s.io/docs/start/windows/
+
+## Start minikube
+```
+minikube start --vm-driver=virtualbox
+```
+
+## Provision Kyma
+```
+kyma provision minikube
+```
