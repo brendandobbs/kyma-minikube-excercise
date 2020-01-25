@@ -26,3 +26,17 @@ minikube start --vm-driver=hyperkit
 ```
 
 See https://kubernetes.io/docs/tasks/tools/install-minikube/ for more detils.
+
+## Install Kyma CLI
+
+```
+brew install kyma-cli
+```
+
+## Install Kyma
+
+## Install Kyma
+```
+kyma provision minikube
+kyma install 
+```
